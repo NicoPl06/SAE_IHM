@@ -1,0 +1,17 @@
+C:\Users\mouss\Documents\IHM\sae\sae\bin\Debug\sae.exe.config
+C:\Users\mouss\Documents\IHM\sae\sae\bin\Debug\sae.exe
+C:\Users\mouss\Documents\IHM\sae\sae\bin\Debug\sae.pdb
+C:\Users\mouss\Documents\IHM\sae\sae\bin\Debug\sae.xml
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.vbproj.AssemblyReference.cache
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.Resources.resources
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.vbproj.GenerateResource.cache
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.vbproj.CoreCompileInputs.cache
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.exe
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.xml
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.pdb
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.accueil.resources
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.jeu.resources
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.reglage.resources
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.stat.resources
+C:\Users\mouss\Documents\IHM\sae\sae\bin\Debug\MaterialSkin.dll
+C:\Users\mouss\Documents\IHM\sae\sae\obj\Debug\sae.vbproj.Up2Date
