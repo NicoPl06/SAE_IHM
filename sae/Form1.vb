@@ -29,7 +29,7 @@
 
     Private Sub btnStat_Click(sender As Object, e As EventArgs) Handles btnStat.Click
         Me.Hide()
-        reglage.Show()
+        stat.Show()
     End Sub
 
     Private Sub btnQuitter_Click(sender As Object, e As EventArgs) Handles btnQuitter.Click
