@@ -32,57 +32,63 @@ Partial Class accueil
         'cmbNom
         '
         Me.cmbNom.FormattingEnabled = True
-        Me.cmbNom.Location = New System.Drawing.Point(291, 131)
+        Me.cmbNom.Location = New System.Drawing.Point(218, 106)
+        Me.cmbNom.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cmbNom.Name = "cmbNom"
-        Me.cmbNom.Size = New System.Drawing.Size(121, 24)
+        Me.cmbNom.Size = New System.Drawing.Size(92, 21)
         Me.cmbNom.TabIndex = 0
         '
         'btnReglage
         '
-        Me.btnReglage.Location = New System.Drawing.Point(79, 285)
+        Me.btnReglage.Location = New System.Drawing.Point(59, 232)
+        Me.btnReglage.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnReglage.Name = "btnReglage"
-        Me.btnReglage.Size = New System.Drawing.Size(146, 44)
+        Me.btnReglage.Size = New System.Drawing.Size(110, 36)
         Me.btnReglage.TabIndex = 1
         Me.btnReglage.Text = "Règlage"
         Me.btnReglage.UseVisualStyleBackColor = True
         '
         'btnPartie
         '
-        Me.btnPartie.Location = New System.Drawing.Point(321, 285)
+        Me.btnPartie.Location = New System.Drawing.Point(241, 232)
+        Me.btnPartie.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnPartie.Name = "btnPartie"
-        Me.btnPartie.Size = New System.Drawing.Size(146, 44)
+        Me.btnPartie.Size = New System.Drawing.Size(110, 36)
         Me.btnPartie.TabIndex = 2
         Me.btnPartie.Text = "Nouvelle Partie"
         Me.btnPartie.UseVisualStyleBackColor = True
         '
         'btnStat
         '
-        Me.btnStat.Location = New System.Drawing.Point(530, 285)
+        Me.btnStat.Location = New System.Drawing.Point(398, 232)
+        Me.btnStat.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnStat.Name = "btnStat"
-        Me.btnStat.Size = New System.Drawing.Size(146, 44)
+        Me.btnStat.Size = New System.Drawing.Size(110, 36)
         Me.btnStat.TabIndex = 3
         Me.btnStat.Text = "Afficher le(s) score(s)"
         Me.btnStat.UseVisualStyleBackColor = True
         '
         'btnQuitter
         '
-        Me.btnQuitter.Location = New System.Drawing.Point(321, 365)
+        Me.btnQuitter.Location = New System.Drawing.Point(241, 297)
+        Me.btnQuitter.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnQuitter.Name = "btnQuitter"
-        Me.btnQuitter.Size = New System.Drawing.Size(146, 44)
+        Me.btnQuitter.Size = New System.Drawing.Size(110, 36)
         Me.btnQuitter.TabIndex = 4
         Me.btnQuitter.Text = "Quitter"
         Me.btnQuitter.UseVisualStyleBackColor = True
         '
         'accueil
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.btnQuitter)
         Me.Controls.Add(Me.btnStat)
         Me.Controls.Add(Me.btnPartie)
         Me.Controls.Add(Me.btnReglage)
         Me.Controls.Add(Me.cmbNom)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "accueil"
         Me.Text = "Accueil"
         Me.ResumeLayout(False)

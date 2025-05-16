@@ -9,17 +9,26 @@
                 .MeilleurTemps = 0
                 .TempsJoue = 0
             End With
+
             If Not EnregistrementJoueur.Existe(J.Prenom) AndAlso Not String.IsNullOrEmpty(J.Prenom) Then
                 EnregistrementJoueur.ajout(J)
                 cmbNom.Items.Add(J.Prenom)
             End If
-            jeu.Show()
+
+            ' Créer une instance du formulaire jeu
+            Dim partie As New jeu
+            partie.Show()
+            partie.StartTimer()
+
+            ' Cacher le formulaire accueil
             Me.Hide()
+
+            ' Réinitialiser le champ de texte
             cmbNom.Text = String.Empty
+
         Else
             MsgBox("Veuillez saisir un nom d'au moins 3 caractères", MsgBoxStyle.OkOnly, "Erreur Prénom")
         End If
-
     End Sub
 
     Private Sub btnReglage_Click(sender As Object, e As EventArgs) Handles btnReglage.Click
@@ -39,4 +48,5 @@
             Application.Exit()
         End If
     End Sub
+
 End Class
